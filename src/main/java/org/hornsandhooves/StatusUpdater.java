@@ -10,8 +10,8 @@ import com.vk.api.sdk.httpclient.HttpTransportClient;
 import java.util.Date;
 
 public class StatusUpdater {
-    private final String ACCESS_TOKEN = "vk1.a.8g8-c_fo150yXO6HUAaFBOun0e2zShWMQVDyRmxdGeE3BOEICaFsjq1FcWyrfKdR_5K-UzrYIjSpNUFbmNNWMFtPcZwpUVR5Jl7-UrxYbcga1m5wU-UmcJMsTHSyaLwki4hcu2d4reNQc4RkUxuuZVVr0j8Bw0pPqxKTriqFFxcr5HbqFDWrYoS_hF0F3j7ZIkdV0lrpmvkL4JhgHnAzZA";
-    private final Integer USER_ID = 273718654;
+    private final String ACCESS_TOKEN = "YOUR_TOKEN";
+    private final Integer USER_ID = 0; // YOUR_ID
     private TransportClient transportClient;
     private VkApiClient vk;
     private UserActor actor;
